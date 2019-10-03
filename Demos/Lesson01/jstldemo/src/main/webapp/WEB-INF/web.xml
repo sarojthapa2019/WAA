@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>controller</servlet-name>
+    <servlet-class>mum.ControllingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/offon.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>cout</servlet-name>
+    <servlet-class>mum.CoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cout</servlet-name>
+    <url-pattern>/cout.do</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>curl</servlet-name>
+    <servlet-class>mum.CurlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>curl</servlet-name>
+    <url-pattern>/curl.do</url-pattern>
+  </servlet-mapping>
+
+  <error-page>
+	<error-code>404</error-code>
+	<location>/page-not-found.jsp</location>
+</error-page>
+
+ <welcome-file-list>
+   <welcome-file>welcome.jsp</welcome-file>
+</welcome-file-list>
+
+</web-app>
