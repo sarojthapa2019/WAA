@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BookMultiBorrower_Formatter_JavaConfig:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca9b7a0-9478-46d5-ac31-3619aeef3d84" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/target/webstore_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lesson03/Lesson03/webstore_springmvc/target/webstore_springmvc.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mum/edu/config/WebApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mum/edu/controller/BorrowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mum/edu/controller/BorrowerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book_Tag_Formatter/src/main/java/mum/edu/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_Tag_Formatter/src/main/java/mum/edu/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Book_Tag_Formatter/src/main/webapp/WEB-INF/jsp/BookAddForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Book_Tag_Formatter/src/main/webapp/WEB-INF/jsp/BookAddForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lesson05.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/CalculatorSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/CalculatorSpringMVCLab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/ProductLab4/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/ProductLab4/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/StarBucksSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/StarBucksSpringMVCLab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lab/Lab4/Product4a.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +31,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1RhmRTNoZ6GK5jjmpc0F4ytOCCt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lab/Lab4/Product04a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lesson05/Lesson05/ProductSessionExample" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -37,6 +58,81 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.241" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.241" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BookMultiBorrower_Formatter_JavaConfig_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BookMultiBorrower_Formatter_JavaConfig:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BookMultiBorrower_Formatter_JavaConfig_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_BookMultiBorrower_Formatter_JavaConfig" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62876" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BookMultiBorrower_Formatter_JavaConfig:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -48,7 +144,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570127694162</updated>
       <workItem from="1570127703464" duration="728000" />
-      <workItem from="1570129877591" duration="4405000" />
+      <workItem from="1570129877591" duration="8406000" />
+      <workItem from="1570165185995" duration="4094000" />
     </task>
     <servers />
   </component>
@@ -67,5 +164,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mum/edu/formatter/BookFormatter.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/mum/edu/formatter/BookFormatter.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

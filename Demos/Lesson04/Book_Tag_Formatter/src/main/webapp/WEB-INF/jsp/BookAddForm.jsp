@@ -6,7 +6,7 @@
 <html>
 <head>
 <title>Add Book Form</title>
-<link rel="stylesheet" href="<c:url value="/css/main.css"/>">
+<link rel="stylesheet" href="<c:url value="/resources/css/main.css"/>">
 </head>
 <body>
 

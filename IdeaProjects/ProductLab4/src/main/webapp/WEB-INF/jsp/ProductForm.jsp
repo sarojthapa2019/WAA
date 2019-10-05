@@ -1,6 +1,7 @@
  <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
  <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<!DOCTYPE HTML>
+ <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+ <!DOCTYPE HTML>
 <html>
 <head>
 <title>Add Product Form</title>
@@ -8,8 +9,8 @@
 </head>
 <body>
 
-
-<form:form modelAttribute="product"  action="product" method="post">
+<spring:url var="myurl" value="/product"></spring:url>
+<form:form modelAttribute="product"  action="${myurl}" method="post">
     <fieldset>
         <legend>Add a product</legend>
         <p>

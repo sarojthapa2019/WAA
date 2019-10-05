@@ -33,7 +33,7 @@ public class ProductController {
 	}
 
 	@RequestMapping("/products/{category}")
-	public String getProductsByCategory(Model model, @PathVariable("category") String productCategory) {
+	public String getProductsByCategory(Model model, @PathVariable(value = "category") String productCategory) {
 		model.addAttribute("products", productService.getProductsByCategory(productCategory));
 		return "products";
 	}

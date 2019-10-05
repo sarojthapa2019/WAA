@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51eaf590-3b9b-49ee-ac1d-2718294b0af1" name="Default Changelist" comment="" />
+    <list default="true" id="51eaf590-3b9b-49ee-ac1d-2718294b0af1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/config/WebApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/config/WebApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/controller/BorrowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/controller/BorrowerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +25,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -47,7 +54,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lesson04/Book_Tag_Formatter" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -156,11 +163,23 @@
       <updated>1556650859103</updated>
       <workItem from="1556650862017" duration="2005000" />
       <workItem from="1570050653162" duration="6525000" />
+      <workItem from="1570158786520" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -36,7 +36,7 @@ public class BorrowerController {
 		this.servletContext = servletContext;
 	}
 
-	@RequestMapping(value = { "/", "/borrowerList" }, method = RequestMethod.GET)
+	@RequestMapping(path = { "/", "/borrowerList" }, method = RequestMethod.GET)
 	public String listBorrowers(Model model) {
 
 		Map<Long, Borrower> borrowers = borrowerService.getAllBorrowers();

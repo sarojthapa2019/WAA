@@ -6,6 +6,7 @@ import java.util.Map;
 
 import mum.edu.domain.Book;
 import mum.edu.domain.Category;
+import mum.edu.domain.ISBNumber;
 import mum.edu.service.BookService;
 import mum.edu.service.CategoryService;
 
@@ -75,6 +76,7 @@ public class BookController {
 	public String saveBook(@ModelAttribute("newBook") Book book, BindingResult result) {
 		System.out.println(book);
 		String[] suppressedFields = result.getSuppressedFields();
+
 		if(suppressedFields.length > 0) {
 			throw new RuntimeException("Attempting to bind disallowed fields: " + StringUtils.arrayToCommaDelimitedString(suppressedFields));
 		}

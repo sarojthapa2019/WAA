@@ -19,8 +19,7 @@ import mum.edu.formatter.BookFormatter;
  *
  * https://www.baeldung.com/web-mvc-configurer-adapter-deprecated
  */
-@Configuration
-@EnableWebMvc
+@Configuration @EnableWebMvc
 @ComponentScan("mum.edu")
 public class WebApplicationContextConfig implements WebMvcConfigurer {
 	
