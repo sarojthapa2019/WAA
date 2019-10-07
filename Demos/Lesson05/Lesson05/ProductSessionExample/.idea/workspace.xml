@@ -7,26 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b558f704-86cf-4f17-a981-dd0621d78db8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/src/main/java/com/packt/webstore/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/src/main/java/com/packt/webstore/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/target/webstore_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson03/Lesson03/webstore_springmvc/target/webstore_springmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/config/WebApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/config/WebApplicationContextConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/controller/BorrowerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/BookMultiBorrower_Formatter_JavaConfig/src/main/java/mum/edu/controller/BorrowerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson04/Book_Tag_Formatter/src/main/java/mum/edu/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/Book_Tag_Formatter/src/main/java/mum/edu/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson04/Book_Tag_Formatter/src/main/webapp/WEB-INF/jsp/BookAddForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson04/Book_Tag_Formatter/src/main/webapp/WEB-INF/jsp/BookAddForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lesson05.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/ProductLab4/target/ProductLab4-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -159,7 +157,7 @@
       <workItem from="1556676007137" duration="793000" />
       <workItem from="1556836590881" duration="2065000" />
       <workItem from="1570205427151" duration="2363000" />
-      <workItem from="1570215020338" duration="2793000" />
+      <workItem from="1570215020338" duration="5275000" />
     </task>
     <servers />
   </component>

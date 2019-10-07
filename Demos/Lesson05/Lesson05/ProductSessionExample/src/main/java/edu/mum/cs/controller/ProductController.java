@@ -10,11 +10,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import edu.mum.cs.domain.Product;
 
 @Controller
+@SessionAttributes({"phone"})
 public class ProductController {
 
 	@Autowired
@@ -66,6 +69,19 @@ public class ProductController {
 		// PRG flash Attribute "product" & "name" is in the Model and
 		// is displayed on ProductDetailspage
 		return "ProductDetails";
+	}
+	@RequestMapping("/productss")
+	public String populateProduct(Model model, HttpSession session) {
+		model.addAttribute("phone", "iPhone 8");
+		session.setAttribute("tablet", "iPad");
+		model.addAttribute("company", "Apple");
+		return "redirect:/displayss";
+	}
+
+	@RequestMapping("/displayss")
+	public String displayProduct(Model model, SessionStatus status) {
+		status.setComplete();
+		return "product";
 	}
 
 }
