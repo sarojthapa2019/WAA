@@ -21,10 +21,11 @@
         <p>
             <label> First Name:
                 <form:input path="firstName"/>
+            </label>
                 <div  style="text-align: center;">
                     <form:errors path="firstName" cssStyle="color : red;" />
                 </div>
-            </label>
+
         </p>
         <p>
             <label> Last Name:
@@ -45,9 +46,10 @@
         <p>
             <label>
                 <form:select path="gender" >
-                    <form:options itemLabel="--Select Gender--" itemValue="" />
-                    <form:options itemValue="gender" />
+                    <form:option value=" " label="--Select Gender--"/>
+                    <form:options  items="${gender}" />
                 </form:select>
+
                 <div  style="text-align: center;">
                     <form:errors path="gender" cssStyle="color : red;" />
                 </div>

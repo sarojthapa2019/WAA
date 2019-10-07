@@ -21,13 +21,16 @@ public class Phone implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	@NotNull
-	@Size(min = 3,max = 3)
+	@Min(value = 3)
+	@Max(value = 3)
  	private Integer area;
 	@NotNull
-	@Size(min = 3,max = 3)
+	@Min(value = 3)
+	@Max(value = 3)
  	private Integer prefix;
 	@NotNull
-	@Size(min = 4,max = 4)
+	@Min(value = 4)
+	@Max(value = 4)
  	private Integer number;
 	
 

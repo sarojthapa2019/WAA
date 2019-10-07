@@ -12,6 +12,7 @@ public class Student {
 	
 	private Integer id;
 	@NotBlank(message = "Enter the first name")
+	@Size(min = 4, max = 50, message = "{Size.firstName}")
  	private String firstName = null;
 	@NotBlank(message = "Enter the last name")
  	private  String lastName  = null;

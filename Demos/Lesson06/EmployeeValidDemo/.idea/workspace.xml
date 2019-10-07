@@ -8,10 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="9ea0cdbe-3c49-42e1-a5a7-aa33c329a454" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/CalculatorSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/CalculatorSpringMVCLab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/resources/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/resources/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/views/registration.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/Lab6_valid/target/classes/errorMessages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/StarBucksSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/StarBucksSpringMVCLab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +161,7 @@
       <workItem from="1556677011415" duration="1351000" />
       <workItem from="1556846171170" duration="5011000" />
       <workItem from="1556932624224" duration="3297000" />
-      <workItem from="1570292014579" duration="6934000" />
+      <workItem from="1570292014579" duration="9758000" />
     </task>
     <task id="LOCAL-00001" summary="Changed to use LocalDate&#10;configure hibernate.fail_fast">
       <created>1556939673146</created>
