@@ -7,11 +7,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b558f704-86cf-4f17-a981-dd0621d78db8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/src/main/webapp/curl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/src/main/webapp/curl.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/classes/mum/ControllingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/classes/mum/ControllingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/WEB-INF/classes/mum/ControllingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/WEB-INF/classes/mum/ControllingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/curl.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson01/jstldemo/target/jstldemo/curl.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/src/main/java/edu/mum/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/src/main/java/edu/mum/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/target/EmployeeValidDemo/WEB-INF/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/target/EmployeeValidDemo/WEB-INF/classes/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/target/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lesson06/EmployeeValidDemo/target/classes/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lesson07.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/CalculatorSpringMVCLab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/contoller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/contoller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/contoller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/contoller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/java/com/students/domain/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/resources/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/src/main/resources/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/contoller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/contoller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/contoller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/contoller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/com/students/domain/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/Lab6_Valid/WEB-INF/classes/errorMessages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/contoller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/contoller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/contoller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/contoller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/com/students/domain/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/Lab6_valid/target/classes/errorMessages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StarBucksSpringMVCLab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../IdeaProjects/StartBucksSessionLab5/target/product_springmvc/WEB-INF/classes/edu/mum/cs/waa/lab/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +68,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556676784105" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resourcedemo_javaconfig" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -158,6 +182,9 @@
       <workItem from="1556836590881" duration="2065000" />
       <workItem from="1570205427151" duration="2363000" />
       <workItem from="1570215020338" duration="5275000" />
+      <workItem from="1570495923853" duration="66000" />
+      <workItem from="1570496084576" duration="445000" />
+      <workItem from="1570561379698" duration="1888000" />
     </task>
     <servers />
   </component>

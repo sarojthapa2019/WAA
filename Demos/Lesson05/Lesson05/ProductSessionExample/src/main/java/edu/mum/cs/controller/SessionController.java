@@ -20,6 +20,7 @@ public class SessionController {
 
 	@Autowired
 	DisplaySessionHelper displaySession;
+	
 
 	@RequestMapping(value = { "/getSession" }, method = RequestMethod.GET)
 	public String inputProduct(Model model, HttpSession session) {

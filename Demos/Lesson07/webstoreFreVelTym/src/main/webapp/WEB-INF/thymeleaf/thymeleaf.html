@@ -1,0 +1,42 @@
+ 
+<html xmlns:th="http://wwww.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/> 
+<title>Welcome</title>
+</head>
+<body>
+	<section>
+		<div class="jumbotron">
+			<div class="container">
+ 				<h1 th:text="${greeting}">  Hi There </h1>
+				<p th:text="${tagline}">  Welcome! </p>
+			</div>
+			
+		</div>
+	</section>
+	<section class="container">
+		<div class="row">
+				<div class="col-md-5">
+					<p>
+						<a href="details.html" th:href="@{/welcome}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Welcome 
+	 					</a>
+
+						<a href="details.html" th:href="@{/freemarker}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Freemarker 
+						 </a>
+
+						<a href="details.html" th:href="@{/velocity}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Velocity 
+	 					</a>
+	 
+						<a href="details.html" th:href="@{/demo}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Compare Select 
+	 					</a>
+  					</p>    
+				</div>
+		</div>
+	</section>
+</body>
+</html>

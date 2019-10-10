@@ -21,16 +21,16 @@ public class Phone implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	@NotNull
-	@Min(value = 3)
-	@Max(value = 3)
+	@Min(value = 000)
+	@Max(value = 999)
  	private Integer area;
 	@NotNull
-	@Min(value = 3)
-	@Max(value = 3)
+	@Min(value = 000, message = "{phone.prefix}")
+	@Max(value = 999, message = "{phone.prefix}")
  	private Integer prefix;
 	@NotNull
-	@Min(value = 4)
-	@Max(value = 4)
+	@Min(value = 0000)
+	@Max(value = 9999)
  	private Integer number;
 	
 

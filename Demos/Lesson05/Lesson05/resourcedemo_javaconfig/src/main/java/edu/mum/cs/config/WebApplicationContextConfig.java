@@ -36,7 +36,7 @@ public class WebApplicationContextConfig implements WebMvcConfigurer {
 
 	@Override
 	public void addResourceHandlers(final ResourceHandlerRegistry registry) {
-		registry.addResourceHandler("/myresources/**").addResourceLocations("/resources/");
+		registry.addResourceHandler("/myresources/**").addResourceLocations("/resources/images/");
 	}
 
 }

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+<link th:href="@{css/main.css}" href="../css/main.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<div id="global">
+    <h2>Employee Details</h2>
+    First Name: <span th:text="${employee.firstName}"></span><br/>
+    Last Name: <span th:text="${employee.lastName}"></span><br/>
+    Address: <span th:text="${employee.address.street}"></span> <span th:text="${employee.address.zipCode}"></span>
+</div>
+</body>
+</html>

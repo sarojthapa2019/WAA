@@ -1,0 +1,56 @@
+<!DOCTYPE html>   
+ <html lang="en" xmlns:th="http://www.thymeleaf.org"  >    
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+<title>Thymeleaf List</title>
+</head>
+<body bgcolor="#E6E6FA">
+ 
+   	<section>
+		<div style="text-align:center" >
+ 
+<H1>Select Category</H1>
+ 
+ 
+	 <h3>Spring Thymeleaf Select</h3>
+   <form action="#" th:action="@{/demo/saveThyme}" th:object="${product}" method="post">
+        <input type="text" th:field="*{name}"/><br/>
+  
+ <select th:field="*{category}">
+     <option th:each="category : ${categoryMap}" 
+   		 th:selected="${category.value == product.category}"
+         th:value="${category.key}" 
+          th:text="${category.value}">
+     </option> 
+    
+ 	</select>	 
+		 	 <h3>Regular Thymeleaf Select</h3>
+
+    <select th:field="*{manufacturer}">
+     
+		 <option th:each="manufacturer : ${categoryList}" 	
+		 		th:selected="${manufacturer == product.manufacturer}"
+                  th:value="${manufacturer}" 
+                  th:text="${manufacturer}">
+         </option>
+ 
+    </select>
+    	<p>
+  <input type="submit" value="Submit" class="btn btn-default"/>   
+	</p>
+ 	</form>
+						<a href="details.html" th:href="@{/welcome}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Welcome 
+	 					</a>
+
+						<a href="details.html" th:href="@{/demo}" class="btn btn-default">
+								<span class="glyphicon-hand-left glyphicon"></span> Demo 
+	 					</a>
+ 
+	
+ </div>
+ </section>	
+ </body>
+</html>

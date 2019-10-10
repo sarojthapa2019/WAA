@@ -30,7 +30,7 @@
 
 <!-- To show the url, do this -->
 
-<a href="${cURL}">C:URL to ENCODE Special Characters in 'text' parameter </a>
+<a href="<c:url value="/curl" />">C:URL to ENCODE Special Characters in 'text' parameter </a>
 
 <p>SEE CONSOLE for 'text' parameter values delivered to server</p>
 
