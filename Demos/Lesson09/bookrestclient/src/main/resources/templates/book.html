@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Add a book</title>
+    <script type="text/javascript"
+            src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" th:src="@{/js/ajax.js}"></script>
+</head>
+<body>
+<div id="result">
+
+</div>
+<form id="bookForm">
+     <p>Title: <input name="title"></p>
+    <p>ISBN: <input name="isbn"></p>
+    <input type="submit" value="Add a book" id="bookBtn" />
+<!--    <button></button>-->
+</form>
+
+</body>
+</html>
