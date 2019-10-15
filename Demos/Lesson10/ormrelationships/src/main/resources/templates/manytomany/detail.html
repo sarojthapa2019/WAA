@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User Form</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" href="../css/main.css"/>
+</head>
+<body>
+
+<div id="global">
+    <h1>User Detail</h1>
+
+    <p>ID: <span th:text="${user.id }"></span></p>
+    <p>Username: <span th:text="${user.username }"></span></p>
+
+    <p>Roles:</p>
+
+    <p th:each="role: ${user.roles}" >
+        <span th:text="${role.role}"></span>
+    </p>
+
+</div>
+</body>
+</html>

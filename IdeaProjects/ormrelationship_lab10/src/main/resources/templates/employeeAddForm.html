@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Employee</title>
+</head>
+<body>
+<h1>Add Employee</h1>
+<form method="post" action="/add" th:object="${employee}">
+<p>
+    <label for="firstName">First Name</label> <input type="text" id="firstName" th:field="*{firstName}">
+</p>
+    <p>
+        <label for="lastName">Last Name</label> <input type="text" id="lastName" th:field="*{lastName}">
+    </p>
+    <p>
+        <label for="email">Email </label> <input type="text" id="email" th:field="*{email}">
+    </p>
+    <h3>Address:</h3>
+    <p>
+        <label for="street">Street</label> <input type="text" id="street" th:field="*{address.street}">
+    </p>
+    <p>
+        <label for="zipCode">Zip Code</label> <input type="text" id="zipCode" th:field="*{address.zipCode}">
+    </p>
+    <p>
+        <label for="state">State</label> <input type="text" id="state" th:field="*{address.state}">
+    </p>
+    <p>
+        <label for="number">Phone Number</label> <input type="text" id="number" th:field="*{address.phoneNumber}">
+    </p>
+    <p>
+        <input type="submit" value="Add Employee" tabindex="4"><input type="reset" value="Reset" tabindex="5">
+    </p>
+</form>
+</body>
+</html>
