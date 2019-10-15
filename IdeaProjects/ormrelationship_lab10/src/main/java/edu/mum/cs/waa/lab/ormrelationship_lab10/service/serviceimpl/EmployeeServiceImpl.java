@@ -35,7 +35,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public Optional<Employee> getEmployeeByNumber(String number) {
-        return employeeRepository.getAllByAddress_PhoneNumber(number);
+        return employeeRepository.locateOneEmployeeByHisNumber(number);
     }
 
     @Override

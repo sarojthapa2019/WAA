@@ -16,6 +16,7 @@ public class Address {
     private String zipCode;
     private String state;
     private String phoneNumber;
-
+    @OneToOne(cascade = CascadeType.ALL)
+    private Employee employee;
 
 }

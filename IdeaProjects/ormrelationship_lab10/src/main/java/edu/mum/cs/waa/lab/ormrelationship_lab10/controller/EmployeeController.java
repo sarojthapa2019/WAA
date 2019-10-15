@@ -1,5 +1,6 @@
 package edu.mum.cs.waa.lab.ormrelationship_lab10.controller;
 
+import edu.mum.cs.waa.lab.ormrelationship_lab10.domain.Address;
 import edu.mum.cs.waa.lab.ormrelationship_lab10.domain.Employee;
 import edu.mum.cs.waa.lab.ormrelationship_lab10.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,7 +33,8 @@ public class EmployeeController {
             model.addAttribute("errors", bindingResult.getAllErrors());
             return "employeeAddForm";
         }
-
+        Address address = employee.getAddress();
+        address.setEmployee(employee);
         employeeService.saveEmployee(employee);
         return "redirect:/list";
     }
@@ -54,6 +56,7 @@ public class EmployeeController {
             model.addAttribute("errors", bindingResult.getAllErrors());
             return "employeeEditForm";
         }
+        employee.getAddress().setEmployee(employee);
         employeeService.saveEmployee(employee);
         return "redirect:/list";
     }
@@ -79,7 +82,7 @@ public class EmployeeController {
             return "list";
         }
 
-            model.addAttribute("empty", "No value found!!");
+            model.addAttribute("empty", "No Data found!!");
             return "list";
 
     }
