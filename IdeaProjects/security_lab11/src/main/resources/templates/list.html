@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee List Form</title>
+</head>
+<body>
+<h2>Employee List</h2>
+<h3 sec:authorize="hasRole('ROLE_ADMIN')"><a th:href="@{/add}">Add Employee</a></h3>
+<div style="float: right" th:fragment="logout" sec:authorize="isAuthenticated()">
+    UserName: <span sec:authentication="name"></span>
+    Role: <span sec:authentication="principal.authorities"></span>
+    <div>
+        <form action="#" th:action="@{/logout}" method="post">
+            <input type="submit" value="Logout" />
+        </form>
+    </div>
+</div>
+<h3>Search By Number</h3>
+<form method="get" th:action="@{/list/number}">
+    <input  type="text" name="number" placeholder="Search By Number">
+    <button type="submit">Search</button>
+</form>
+<table>
+    <thead>
+    <tr>
+        <th>SN</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Number</th>
+        <th>State</th>
+        <th>Zip Code</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr th:each="emp,iter : ${empList}">
+            <td th:text="${iter.count}"></td>
+            <td th:text="${emp.firstName}"></td>
+            <td th:text="${emp.lastName}"></td>
+            <td th:text="${emp.email}"></td>
+            <td th:text="${emp.address.phoneNumber}"></td>
+            <td th:text="${emp.address.state}"></td>
+            <td th:text="${emp.address.zipCode}"></td>
+            <td><a th:href="@{'/edit/{id}'(id=${emp.id})}">Edit</a></td>
+            <td><a th:href="@{'/delete/'+${emp.id}}">Delete</a></td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <p th:text="${empty}">
+
+    </p>
+</div>
+</body>
+</html>
