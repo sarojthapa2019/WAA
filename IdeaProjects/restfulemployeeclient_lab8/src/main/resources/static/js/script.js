@@ -17,7 +17,9 @@ $(document).ready(function () {
                $('#result').append(printResult);
            },
            error: function (XMLHttpRequest, textStatus, errorThrown) {
-               console.log('error');
+
+               console.log("textStatus "+textStatus);
+               console.log("errorthrown"+errorThrown);
                let errorObject = XMLHttpRequest.responseJSON;
                if(errorObject.errorType == "ValidationError"){
                    console.log(errorObject);

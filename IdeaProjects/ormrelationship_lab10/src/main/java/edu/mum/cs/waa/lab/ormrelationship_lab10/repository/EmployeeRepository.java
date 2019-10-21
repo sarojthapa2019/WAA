@@ -11,7 +11,8 @@ import java.util.Optional;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {
-    @Query("select e from Employee e where e.address.phoneNumber = :phoneNumber")
+//    @Query("select e from Employee e where e.address.phoneNumber = :phoneNumber")
+    @Query(value = "Select * from employee where address.emp_id =?1" , nativeQuery = true)
     Optional<Employee> locateOneEmployeeByHisNumber(String phoneNumber);
 //    Optional<Employee> getAllByAddress_PhoneNumber(String number);
 }
