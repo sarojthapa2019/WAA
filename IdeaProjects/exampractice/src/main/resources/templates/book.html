@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+</head>
+<body>
+<div>
+<h2>Book List</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>SN</th>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Details</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="book,iter :  ${books}">
+            <td th:text="${iter.count}"></td>
+            <td th:text="${book.name}"></td>
+            <td th:text="${book.author}"></td>
+            <td><a th:href="@{'/book/detail/'+${book.id}}">View</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <h2>Add Book</h2>
+    <form method="post" th:action="@{'/book/add'}" th:object="${book}">
+    <p>Book Name: <input type="text" th:field="*{name}"></p>
+        <p>Author Name: <input type="text" th:field="*{author}"></p>
+        <p>
+            <select multiple th:field="*{categoryList}">
+                <option th:each="c: ${categories}" th:value="${c.id}" th:label="${c.categoryName}"></option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Add Book">
+        </p>
+        <div id="error" th:if="${#fields.hasErrors('*')}">
+            <p th:each="e: ${#fields.errors('*')}" th:text="${e}"></p>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

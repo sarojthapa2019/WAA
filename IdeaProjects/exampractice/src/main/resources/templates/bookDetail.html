@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Detail</title>
+</head>
+<body>
+<div>
+    <h2>Book Details</h2>
+    <p>Book Id :<span th:text="${book.id}"></span></p>
+    <p>Author : <span th:text="${book.author}"></span></p>
+    <p>Categories :<span th:each="c: ${book.categoryList}" th:text="${c.categoryName}"></span></p>
+    <p >Reviews :<span th:each="r: ${book.reviewList}" ><span th:text="${r.rating}"></span> <span th:text="${r.userReview}"></span></span></p>
+</div>
+<div>
+    <h3>Add Reviews</h3>
+    <form method="post" th:action="@{'/book/addreview/'+${book.id}}" th:object="${review}">
+    <p>Rating :<input type="text" th:field="*{rating}" ></p>
+    <p>Review :<input type="text" th:field="*{userReview}" ></p>
+        <p>
+            <input type="submit" value="Add Review">
+        </p>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" th:src="@{'script.js'}"></script>
+</head>
+<body>
+<div>
+<table id="table">
+    <thead>
+    <tr>
+        <th>SN</th>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Details</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+</div>
+<div>
+    <h2>Add Book</h2>
+    <form id="bookForm">
+        <p>Name :<input id="name" name="name"></p>
+        <p>Author :<input id="author" name="author"></p>
+        <p>Categories :
+            <select multiple id="catSelect" name="categoryList"></select>
+        </p>
+        <p><input type="button" value="Add Book" id="addBtn"></p>
+    </form>
+</div>
+<div id="error">
+
+</div>
+
+</body>
+</html>
